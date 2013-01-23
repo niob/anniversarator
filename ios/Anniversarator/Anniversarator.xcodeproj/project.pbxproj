@@ -56,7 +56,9 @@
 		C8DBDE5916B0334700DD2A3A = {
 			isa = PBXGroup;
 			children = (
-				C8DBDE6E16B0334700DD2A3A /* Anniversarator */,
+				C8DBDE8B16B035B700DD2A3A /* Classes */,
+				C8DBDE6F16B0334700DD2A3A /* Supporting Files */,
+				C8DBDE8E16B036D200DD2A3A /* Resources */,
 				C8DBDE6716B0334700DD2A3A /* Frameworks */,
 				C8DBDE6516B0334700DD2A3A /* Products */,
 			);
@@ -80,19 +82,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C8DBDE6E16B0334700DD2A3A /* Anniversarator */ = {
-			isa = PBXGroup;
-			children = (
-				C8DBDE7716B0334700DD2A3A /* ANNAppDelegate.h */,
-				C8DBDE7816B0334700DD2A3A /* ANNAppDelegate.m */,
-				C8DBDE8016B0334700DD2A3A /* ANNViewController.h */,
-				C8DBDE8116B0334700DD2A3A /* ANNViewController.m */,
-				C8DBDE8316B0334700DD2A3A /* ANNViewController.xib */,
-				C8DBDE6F16B0334700DD2A3A /* Supporting Files */,
-			);
-			path = Anniversarator;
-			sourceTree = "<group>";
-		};
 		C8DBDE6F16B0334700DD2A3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +94,52 @@
 				C8DBDE7E16B0334700DD2A3A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = Anniversarator;
+			sourceTree = "<group>";
+		};
+		C8DBDE8B16B035B700DD2A3A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C8DBDE8D16B036C000DD2A3A /* Model */,
+				C8DBDE8C16B036B900DD2A3A /* Controllers */,
+				C8DBDE7716B0334700DD2A3A /* ANNAppDelegate.h */,
+				C8DBDE7816B0334700DD2A3A /* ANNAppDelegate.m */,
+			);
+			name = Classes;
+			path = Anniversarator;
+			sourceTree = "<group>";
+		};
+		C8DBDE8C16B036B900DD2A3A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C8DBDE8016B0334700DD2A3A /* ANNViewController.h */,
+				C8DBDE8116B0334700DD2A3A /* ANNViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C8DBDE8D16B036C000DD2A3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C8DBDE8E16B036D200DD2A3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8DBDE8F16B036DF00DD2A3A /* Xibs */,
+			);
+			name = Resources;
+			path = Anniversarator;
+			sourceTree = "<group>";
+		};
+		C8DBDE8F16B036DF00DD2A3A /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				C8DBDE8316B0334700DD2A3A /* ANNViewController.xib */,
+			);
+			name = Xibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
