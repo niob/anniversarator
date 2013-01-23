@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8DBDE6916B0334700DD2A3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DBDE6816B0334700DD2A3A /* UIKit.framework */; };
+		C8DBDE6B16B0334700DD2A3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DBDE6A16B0334700DD2A3A /* Foundation.framework */; };
+		C8DBDE6D16B0334700DD2A3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DBDE6C16B0334700DD2A3A /* CoreGraphics.framework */; };
+		C8DBDE7316B0334700DD2A3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8DBDE7116B0334700DD2A3A /* InfoPlist.strings */; };
+		C8DBDE7516B0334700DD2A3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DBDE7416B0334700DD2A3A /* main.m */; };
+		C8DBDE7916B0334700DD2A3A /* ANNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DBDE7816B0334700DD2A3A /* ANNAppDelegate.m */; };
+		C8DBDE7B16B0334700DD2A3A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C8DBDE7A16B0334700DD2A3A /* Default.png */; };
+		C8DBDE7D16B0334700DD2A3A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8DBDE7C16B0334700DD2A3A /* Default@2x.png */; };
+		C8DBDE7F16B0334700DD2A3A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8DBDE7E16B0334700DD2A3A /* Default-568h@2x.png */; };
+		C8DBDE8216B0334700DD2A3A /* ANNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DBDE8116B0334700DD2A3A /* ANNViewController.m */; };
+		C8DBDE8516B0334700DD2A3A /* ANNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8DBDE8316B0334700DD2A3A /* ANNViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8DBDE6416B0334700DD2A3A /* Anniversarator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anniversarator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DBDE6816B0334700DD2A3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8DBDE6A16B0334700DD2A3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8DBDE6C16B0334700DD2A3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8DBDE7016B0334700DD2A3A /* Anniversarator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Anniversarator-Info.plist"; sourceTree = "<group>"; };
+		C8DBDE7216B0334700DD2A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8DBDE7416B0334700DD2A3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8DBDE7616B0334700DD2A3A /* Anniversarator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Anniversarator-Prefix.pch"; sourceTree = "<group>"; };
+		C8DBDE7716B0334700DD2A3A /* ANNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANNAppDelegate.h; sourceTree = "<group>"; };
+		C8DBDE7816B0334700DD2A3A /* ANNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANNAppDelegate.m; sourceTree = "<group>"; };
+		C8DBDE7A16B0334700DD2A3A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C8DBDE7C16B0334700DD2A3A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C8DBDE7E16B0334700DD2A3A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C8DBDE8016B0334700DD2A3A /* ANNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANNViewController.h; sourceTree = "<group>"; };
+		C8DBDE8116B0334700DD2A3A /* ANNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANNViewController.m; sourceTree = "<group>"; };
+		C8DBDE8416B0334700DD2A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ANNViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8DBDE6116B0334700DD2A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DBDE6916B0334700DD2A3A /* UIKit.framework in Frameworks */,
+				C8DBDE6B16B0334700DD2A3A /* Foundation.framework in Frameworks */,
+				C8DBDE6D16B0334700DD2A3A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8DBDE5916B0334700DD2A3A = {
+			isa = PBXGroup;
+			children = (
+				C8DBDE6E16B0334700DD2A3A /* Anniversarator */,
+				C8DBDE6716B0334700DD2A3A /* Frameworks */,
+				C8DBDE6516B0334700DD2A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8DBDE6516B0334700DD2A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8DBDE6416B0334700DD2A3A /* Anniversarator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8DBDE6716B0334700DD2A3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8DBDE6816B0334700DD2A3A /* UIKit.framework */,
+				C8DBDE6A16B0334700DD2A3A /* Foundation.framework */,
+				C8DBDE6C16B0334700DD2A3A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8DBDE6E16B0334700DD2A3A /* Anniversarator */ = {
+			isa = PBXGroup;
+			children = (
+				C8DBDE7716B0334700DD2A3A /* ANNAppDelegate.h */,
+				C8DBDE7816B0334700DD2A3A /* ANNAppDelegate.m */,
+				C8DBDE8016B0334700DD2A3A /* ANNViewController.h */,
+				C8DBDE8116B0334700DD2A3A /* ANNViewController.m */,
+				C8DBDE8316B0334700DD2A3A /* ANNViewController.xib */,
+				C8DBDE6F16B0334700DD2A3A /* Supporting Files */,
+			);
+			path = Anniversarator;
+			sourceTree = "<group>";
+		};
+		C8DBDE6F16B0334700DD2A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8DBDE7016B0334700DD2A3A /* Anniversarator-Info.plist */,
+				C8DBDE7116B0334700DD2A3A /* InfoPlist.strings */,
+				C8DBDE7416B0334700DD2A3A /* main.m */,
+				C8DBDE7616B0334700DD2A3A /* Anniversarator-Prefix.pch */,
+				C8DBDE7A16B0334700DD2A3A /* Default.png */,
+				C8DBDE7C16B0334700DD2A3A /* Default@2x.png */,
+				C8DBDE7E16B0334700DD2A3A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8DBDE6316B0334700DD2A3A /* Anniversarator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8DBDE8816B0334700DD2A3A /* Build configuration list for PBXNativeTarget "Anniversarator" */;
+			buildPhases = (
+				C8DBDE6016B0334700DD2A3A /* Sources */,
+				C8DBDE6116B0334700DD2A3A /* Frameworks */,
+				C8DBDE6216B0334700DD2A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anniversarator;
+			productName = Anniversarator;
+			productReference = C8DBDE6416B0334700DD2A3A /* Anniversarator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8DBDE5B16B0334700DD2A3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ANN;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sander Versluys";
+			};
+			buildConfigurationList = C8DBDE5E16B0334700DD2A3A /* Build configuration list for PBXProject "Anniversarator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8DBDE5916B0334700DD2A3A;
+			productRefGroup = C8DBDE6516B0334700DD2A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8DBDE6316B0334700DD2A3A /* Anniversarator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8DBDE6216B0334700DD2A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DBDE7316B0334700DD2A3A /* InfoPlist.strings in Resources */,
+				C8DBDE7B16B0334700DD2A3A /* Default.png in Resources */,
+				C8DBDE7D16B0334700DD2A3A /* Default@2x.png in Resources */,
+				C8DBDE7F16B0334700DD2A3A /* Default-568h@2x.png in Resources */,
+				C8DBDE8516B0334700DD2A3A /* ANNViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8DBDE6016B0334700DD2A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8DBDE7516B0334700DD2A3A /* main.m in Sources */,
+				C8DBDE7916B0334700DD2A3A /* ANNAppDelegate.m in Sources */,
+				C8DBDE8216B0334700DD2A3A /* ANNViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8DBDE7116B0334700DD2A3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8DBDE7216B0334700DD2A3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C8DBDE8316B0334700DD2A3A /* ANNViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8DBDE8416B0334700DD2A3A /* en */,
+			);
+			name = ANNViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8DBDE8616B0334700DD2A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8DBDE8716B0334700DD2A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8DBDE8916B0334700DD2A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Anniversarator/Anniversarator-Prefix.pch";
+				INFOPLIST_FILE = "Anniversarator/Anniversarator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C8DBDE8A16B0334700DD2A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Anniversarator/Anniversarator-Prefix.pch";
+				INFOPLIST_FILE = "Anniversarator/Anniversarator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8DBDE5E16B0334700DD2A3A /* Build configuration list for PBXProject "Anniversarator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DBDE8616B0334700DD2A3A /* Debug */,
+				C8DBDE8716B0334700DD2A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8DBDE8816B0334700DD2A3A /* Build configuration list for PBXNativeTarget "Anniversarator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8DBDE8916B0334700DD2A3A /* Debug */,
+				C8DBDE8A16B0334700DD2A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8DBDE5B16B0334700DD2A3A /* Project object */;
+}
