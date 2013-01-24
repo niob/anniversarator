@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ANNViewController : UIViewController
+@interface ANNViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *typePicker;
+@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 
 @end
